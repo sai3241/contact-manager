@@ -18,10 +18,10 @@ export class Contactservices {
     let dataURL = `${this.serverURL}/groups/${groupId}`;
     return axios.get(dataURL);
   }
-  static geAllContact() {
-    let dataURL = `${this.serverURL}/contacts`;
-    return axios.get(dataURL);
-  }
+  // static geAllContact() {
+  //   let dataURL = `${this.serverURL}/contacts`;
+  //   return axios.get(dataURL);
+  // }
 
   static getContact(contactId) {
     let dataURL = `${this.serverURL}/contacts/${contactId}`;

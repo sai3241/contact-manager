@@ -50,7 +50,7 @@ const Editcontact = () => {
         errorMessage:error.message
       })
     }
-  }, []);
+  }, [contactId]);
 
   const handlesubmit = async (event) => {
     event.preventDefault();

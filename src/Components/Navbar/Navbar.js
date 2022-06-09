@@ -7,11 +7,10 @@ const Navbar = () => {
     <nav className='navbar navbar-dark bg-dark navabar-expand-sm'>
         <div className="container">
             <Link to={'/'} className="navbar-brand">
-                <i className='fa fa-mobile text-warning'/>Contact <span className='text-warning'>Manager</span></Link>
+                <i className='fa fa-mobile text-warning'/> Contact <span className='text-warning'>Manager</span></Link>
         </div>
     </nav>
     </>
   )
 }
-
 export default Navbar
